@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/grid_cardview"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:layout_margin="2dp"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:padding="2dp">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/primaryLightColor"
+        android:orientation="vertical">
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/grid_foto_alumno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop" />
+
+
+        <TextView
+            android:id="@+id/grid_nombre_alumno"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="12dp"
+            android:background="@color/background_footer"
+            android:text="Nombre"
+            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+            android:textColor="@android:color/white"
+            android:textSize="12dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/grid_apellido_alumno"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@color/background_footer"
+            android:text="Apellidos"
+            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+            android:textColor="@android:color/white"
+            android:textSize="10dp" />
+
+    </FrameLayout>
+
+</android.support.v7.widget.CardView>

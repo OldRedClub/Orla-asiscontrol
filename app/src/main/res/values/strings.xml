@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Orlas Murgi 2014-16</string>
+    <string name="action_settings">Settings</string>
+    <string name="bachiller">2ºBachillerato</string>
+    <string name="gradom">2ºGrado Medio</string>
+    <string name="grados">2ºGrado Superior</string>
+    <string name="item_inicio">Inicio</string>
+    <string name="config">Configuración</string>
+    <string name="transitionName">mitransicion</string>
+
+</resources>
